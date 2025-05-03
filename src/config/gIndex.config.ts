@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "17014ea4dd4f886b1aa934b001d744adbb612c056adb0a68c0fd09b8d113a3befdad6c66411e2de92a3ab6b366745e4864;f68b379f0938b0d84298e6e4",
+      "a4d236daa9353a2da711d7a8a86597b3577ad707187af45fff4ea659c05a83bd07750ec85e41b0051a3d22e8cf51865496;74f30eff305f149472b1f5f7",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -94,7 +94,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can add more extensions if you want
      */
-    hiddenFiles: [".password", ".readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp"],
+    hiddenFiles: [".password", ".readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp", "next-gdrive-index-api-b78526fe1083.json"],
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
